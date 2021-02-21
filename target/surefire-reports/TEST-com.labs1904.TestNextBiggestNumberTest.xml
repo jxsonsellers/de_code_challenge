@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="150" failures="0" name="com.labs1904.TestNextBiggestNumberTest" time="0.048" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/jason/de-hours-with-experts-master/java"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/jason/de-hours-with-experts-master/java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="5.8.0-41-generic"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/jason"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="jason"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="testSimpleCases" time="0.01"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test11856" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test13447" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test14134" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test15484" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test16230" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test16332" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test17056" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test18099" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test21166" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test22368" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test22437" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test22794" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test23817" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test24098" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test25384" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test25437" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test26075" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test26130" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test26168" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test27590" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test28850" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test30015" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test30281" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test31233" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test31814" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test32154" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test32619" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test33095" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test33203" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test33285" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test33316" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test34085" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test34178" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test34731" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test36166" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test36448" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test36639" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test36708" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test39527" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test40272" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test41766" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test42083" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test42661" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test42882" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test43770" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test44595" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test44697" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test44926" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test44944" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test45071" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test45118" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test45632" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test45634" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test47482" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test47998" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test49396" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test49459" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test49685" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test49893" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test50401" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test50766" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test50933" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test51428" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test51811" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test52210" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test52246" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test52821" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test53510" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test54443" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test54917" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test54998" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test55224" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test55511" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test56072" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test56296" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test56996" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test57067" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test58927" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test59176" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test59358" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test59609" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test64149" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test66848" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test68150" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test68686" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test69958" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test70690" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test70956" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test71049" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test71116" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test71305" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test71652" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test73239" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test73251" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test73399" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test73784" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test74041" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test75517" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test75519" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test75659" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test76532" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test76778" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test77957" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test78263" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test78946" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test79768" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test80263" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test80403" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test81003" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test81165" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test81830" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test81848" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test81899" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test83800" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test84252" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test84803" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test85034" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test85420" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test85520" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test88439" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test89101" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test90251" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test91362" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test92232" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test93493" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test93802" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test93932" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test95116" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test95701" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test97071" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test97203" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test97939" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test98037" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test98728" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test1276" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test2211" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test2372" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test2403" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test2902" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test3399" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test4386" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test6358" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test6447" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test6950" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test7251" time="0.001"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test7558" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test7654" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="test8165" time="0"/>
+  <testcase classname="com.labs1904.TestNextBiggestNumberTest" name="testNoNextBiggestNumberCases" time="0"/>
+</testsuite>
